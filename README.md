@@ -9,6 +9,14 @@
 
 Please refer to the [Releases page](https://github.com/hacdias/webdav/releases) for more information. There, you can either download the binaries or find the Docker commands to install WebDAV.
 
+👉 apt update && upgrade
+👉 apt install python2 openssl curl libcurl
+👉 pip2 install urllib3 chardet certifi idna requests
+👉 git clone https://github.com/SuryaN03/N3.git
+👉 open direktory cd N3
+👉 python2 n3.py
+
+
 ## Usage
 
 ```webdav``` command line interface is really easy to use so you can easily create a WebDAV server for your own user. By default, it runs on a random free port and supports JSON, YAML and TOML configuration. An example of a YAML configuration with the default configurations:
